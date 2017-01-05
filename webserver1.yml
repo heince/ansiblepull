@@ -1,4 +1,4 @@
 - hosts: webserver
   tasks:
-   - name: test ansible pull logging
+   - name: test ansible pull: logging date
      shell: date >> /var/log/date.log
