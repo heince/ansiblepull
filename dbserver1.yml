@@ -1,0 +1,4 @@
+- hosts: dbserver
+  tasks:
+   - name: test ansible pull: logging date
+     shell: date >> /var/log/date.log
